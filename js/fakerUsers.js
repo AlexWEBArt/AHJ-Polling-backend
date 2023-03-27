@@ -17,7 +17,7 @@ setInterval(() => {
     Array.from({ length: 1 }).forEach(() => {
         usersMessages.push(createRandomUser());
     });
-}, 3600000)
+}, 300000)
 
 
 module.exports = usersMessages;
